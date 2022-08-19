@@ -19,9 +19,9 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Ven Jin. I like coding and developing software.
-        I am a <a href="https://www.apu.edu.my/">Asia Pacific University</a> graduate in Sofware Engineering,
-        a Technical Assistant, and a St. Michael Alumni.
+      <p>Fun fact, I love coding and developing software on my pass time.
+        A little more about me, I am an <a href="https://www.apu.edu.my/">APU</a> graduate, SMI Alumni, and
+        an ex-Technical Assistant.
       </p>
       <ul className="actions">
         <li>
@@ -32,7 +32,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Khoo Ven Jin <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; Khoo Ven Jin <Link to="/">34.238.41.111</Link>.</p>
     </section>
   </section>
 );
