@@ -19,8 +19,8 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Fun fact, I love coding and developing software on my pass time.
-        A little more about me, I am an <a href="https://www.apu.edu.my/">APU</a> graduate, SMI Alumni, and
+      <p>Fun fact, I love coding and developing software.
+        I am an <a href="https://www.apu.edu.my/">APU</a> graduate, SMI Alumni, and
         an ex-Technical Assistant.
       </p>
       <ul className="actions">
