@@ -49,7 +49,9 @@
 
   .image {
     overflow: hidden;
-    width: 100%;
+    width: 50%;
+    padding: 1.25em;
+    float: left;
 
     img {
       @include vendor( 'transition', 'transform #{_duration(transition)} ease-out');
@@ -61,6 +63,19 @@
         @include vendor( 'transform', 'scale(1.05)');
       }
     }
+  }
+
+  .image-description {
+    font-family: _font(family-heading);
+    font-size: .9em;
+    width: 50%;
+    padding: 1.25em;
+    float: right;
+  }
+
+  .image_and_text {
+    display: inline-block;
+    width: 100%;
   }
 
   header {
